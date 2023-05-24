@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+	background-color: #fafbfd;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.admin-info {
+    flex: 1;
+	background-color: #F3F3F3;
+}
+
+.user-table {
+    flex: 2;
+    margin-left: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.botoeditar, .botoeliminar, .alta {
+    padding: 6px 12px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.botoeditar {
+    background-color: #4CAF50;
+}
+
+.botoeliminar {
+    background-color: #f44336;
+}
+.alta {
+	background-color: #0000FF
+}
+
+.botoeditar:hover, .botoeliminar:hover, .alta:hover {
+    opacity: 0.8;
+}
+#barratheadmin {
+	display: flex;
+	justify-content: center;
+}
+
+#barratheadmin ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+#barratheadmin li {
+	margin-right: 10px;
+}
+#barratheadmin a:hover {
+	background-color: #ddd;
+}
